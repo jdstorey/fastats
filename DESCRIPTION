@@ -1,0 +1,39 @@
+Package: fastats
+Type: Package
+Title: Foundations of Applied Statistics course package
+Version: 0.1.0
+Author: Andrew Bass, Wei Hao, John Storey
+Maintainer: Andrew Bass <ajbass@princeton.edu>
+Description: This package contains key functions and datasets used in QCB 408/508.
+License: LGPL
+Imports:
+  tidyverse,
+  ggplot2,
+  matrixStats,
+  rARPACK,
+  edge,
+  broom,
+  MASS,
+  jackstraw,
+  lars,
+  glmnetUtils,
+  splines,
+  lmtest,
+  car,
+  BSDA,
+  gapminder,
+  gganimate,
+  rvest,
+  babynames,
+  datasets,
+  magrittr,
+  devtools,
+  moments,
+  mgcv,
+  qvalue
+Depends:
+  R (>= 2.10)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/StoreyLab/fastats
+RoxygenNote: 6.1.0
