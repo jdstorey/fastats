@@ -87,3 +87,11 @@ rowScale = function(x,
   }
   return(x)
 }
+
+#' @export
+hibrary <- function (package) 
+{
+  package <- as.character(substitute(package))
+  eval(substitute(library(pkg), list(pkg = as.name(package))))
+  eval(substitute(help(package = pkg), list(pkg = as.name(package))))
+}

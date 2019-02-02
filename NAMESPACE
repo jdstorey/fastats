@@ -2,6 +2,7 @@
 
 S3method(pca,data.frame)
 S3method(pca,matrix)
+export(hibrary)
 export(pca)
 export(scree_plot)
 import(ggplot2)

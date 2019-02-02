@@ -135,16 +135,6 @@ NULL
 #' @format Two data frames: smoker (expression), smoker_info (design)
 "smoker"
 
-#' Human Genome Diversity Project (HGDP) dataset
-#'
-#' The Human Genome Diversity Project (HGDP) genotyped 1,043 individuals from
-#' Africa, Europe, the Middle East, South and Central Asia, East Asia, Oceania and the Americas.
-#' There are over 650,000 single nucleotide polymorphisms (SNPs). Note that this
-#' dataset is preprocessed and there are 940 individuals and 550,303 SNPs.
-#'
-#' @format A tibble data frame
-"HGDP"
-
 #' Smith and Kruglyak dataset
 #'
 #' The yeast data set contains 2820 genotypes in 109 yeast F1 segregants from a cross
