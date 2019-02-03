@@ -12,7 +12,7 @@ NULL
 #' The Human Genome Diversity Project (HGDP) genotyped 1,043 individuals from
 #' Africa, Europe, the Middle East, South and Central Asia, East Asia, Oceania and the Americas.
 #' There are over 650,000 single nucleotide polymorphisms (SNPs). Note that this
-#' dataset is preprocessed and there are 940 individuals and 550,303 SNPs.
+#' dataset is preprocessed and there are 940 individuals and 50,000 SNPs.
 #' 
 #' @aliases geo_loc HGDP_subset
 #' @format A tibble data frame
