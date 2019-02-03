@@ -5,12 +5,11 @@
 #' @param x An n x p matrix.
 #' @param space Specifies which space to do the projections. Either "row" or "column", default is "row".
 #' @param nsv Optional. An integer specifying the number of PCs.
-#' estimate more robust for small p-values and a direct finite sample estimate of pFDR -- optional.
 #' @param center If TRUE then matrix will be mean centered. Default is TRUE.
 #' @param scale If TRUE then matrix will be normalized. Default is FALSE
 #'
 #' @return
-#' A list of object type "qvalue" containing:
+#' A list of object type "pca" containing:
 #' \item{pc}{A matrix containing the principal components.}
 #' \item{loading}{A matrix containing the loadings.}
 #' \item{pve}{A vector containing the percent variation explained by each PC.}
