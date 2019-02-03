@@ -34,6 +34,7 @@ Imports:
 Depends:
   R (>= 2.10)
 Encoding: UTF-8
+biocViews:
 LazyData: true
 URL: https://github.com/jdstorey/fastats
 RoxygenNote: 6.1.0
