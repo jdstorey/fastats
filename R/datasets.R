@@ -7,6 +7,18 @@
 #' @aliases fastats fastats-package
 NULL
 
+#' Human Genome Diversity Project (HGDP) dataset
+#'
+#' The Human Genome Diversity Project (HGDP) genotyped 1,043 individuals from
+#' Africa, Europe, the Middle East, South and Central Asia, East Asia, Oceania and the Americas.
+#' There are over 650,000 single nucleotide polymorphisms (SNPs). Note that this
+#' dataset is preprocessed and there are 940 individuals and 550,303 SNPs.
+#' 
+#' @aliases geo_loc HGDP_subset
+#' @format A tibble data frame
+"HGDP_subset"
+
+
 #' Exome Aggregation Consortium (ExAC)
 #'
 #' The Exome Aggregation Consortium (ExAC) is a consortium that seeks to combine data from different human exome sequencing projects.
