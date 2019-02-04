@@ -6,6 +6,9 @@
 \usage{
 hibrary(package)
 }
+\arguments{
+\item{package}{character: package name}
+}
 \description{
 Library load with help file.
 }
