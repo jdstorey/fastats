@@ -88,6 +88,11 @@ rowScale = function(x,
   return(x)
 }
 
+#' hibrary function
+#' 
+#' Library load with help file.
+#' 
+#' 
 #' @export
 hibrary <- function (package) 
 {

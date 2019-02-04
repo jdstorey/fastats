@@ -12,15 +12,14 @@ pca(x, space = c("rows", "columns"), nsv = NULL, center = TRUE,
 
 \item{space}{Specifies which space to do the projections. Either "row" or "column", default is "row".}
 
-\item{nsv}{Optional. An integer specifying the number of PCs.
-estimate more robust for small p-values and a direct finite sample estimate of pFDR -- optional.}
+\item{nsv}{Optional. An integer specifying the number of PCs.}
 
 \item{center}{If TRUE then matrix will be mean centered. Default is TRUE.}
 
 \item{scale}{If TRUE then matrix will be normalized. Default is FALSE}
 }
 \value{
-A list of object type "qvalue" containing:
+A list of object type "pca" containing:
 \item{pc}{A matrix containing the principal components.}
 \item{loading}{A matrix containing the loadings.}
 \item{pve}{A vector containing the percent variation explained by each PC.}
@@ -35,5 +34,4 @@ X <- matrix(rnorm(100 * 10), ncol = 10)
 out_pca <- pca(X)
 
 scree_plot(out_pca)
-
 }

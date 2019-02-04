@@ -70,10 +70,11 @@ NULL
 #' as much, etc. Note that the gene_idcolumn consists of integers that serve
 #' as placeholders and do not directly map to human genes. There are 22 tumors
 #' analyzed, and the labels and mutations are documented.
-#'
+#' @docType data
+#' @name hedenfalk_study
 #' @aliases hedenfalk hedenfalk_info
 #' @format Two data frames: hedenfalk (expression), hedenfalk_info (design)
-"hedenfalk"
+NULL
 
 #' 2016 election data
 #'
@@ -92,9 +93,8 @@ NULL
 "cystic_fibrosis"
 
 #' Genotype data for homework
-#'
 #' @format A data frame
-"genotype"
+"genotypes"
 
 #' Simulated RNA-Seq data
 #'
@@ -115,10 +115,11 @@ NULL
 #' missing information at the 4 and 6 hr time points. The samples were
 #' hybridized onto U133 GeneChips with 44,924 probes. Note the expression
 #' values need to be log-transformed.
-#'
-#' @aliases endotoxin endotoxin_info
+#' @docType data
+#' @name endtoxin_study
+#' @aliases endotoxin_exprs endotoxin_info
 #' @format  Two data frames: endotoxin (expression), endotoxin_info (design)
-"endotoxin"
+NULL
 
 #' Kidney data set
 #'
@@ -129,10 +130,11 @@ NULL
 #' Storey (2005) to control for potential confounding, only 38,833 probes were
 #' used for analysis.  Note the expression
 #' values need to be log-transformed.
-#'
-#' @aliases kidney kidney_info
+#' @docType data
+#' @name kidney_study
+#' @aliases kidney_exprs kidney_info
 #' @format Two data frames: kidney (expression), kidney_info (design)
-"kidney"
+NULL
 
 #' Smoker data set
 #'
@@ -142,10 +144,11 @@ NULL
 #' sequenced using Illumina HiSeq 2000 and the reads were assembled
 #' using Bowtie. In total, there are 65,217 genes. Note the expression
 #' values need to be log-transformed.
-#'
+#' @docType data
+#' @name smoker_study
 #' @aliases smoker smoker_info
 #' @format Two data frames: smoker (expression), smoker_info (design)
-"smoker"
+NULL
 
 #' Smith and Kruglyak dataset
 #'
@@ -153,7 +156,7 @@ NULL
 #' between parental lines BY and RM. They also measured gene expression on 4482 genes in each of these segregants when growing in two different
 #' Carbon sources, glucose and ethanol.
 #' @docType data
-#' @name yeast
+#' @name yeast_study
 #' @aliases exp.e exp.g exp.pos marker marker.pos
 #' @format Four data frames: exp.e (expression), exp.g (genotype), exp.pos, marker, marker.pos
 NULL

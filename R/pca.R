@@ -21,7 +21,6 @@
 #' out_pca <- pca(X)
 #'
 #' scree_plot(out_pca)
-#'
 #' @export
 pca <- function (x, space = c("rows", "columns"), nsv = NULL, center = TRUE,
                  scale = FALSE) {
@@ -79,7 +78,6 @@ pca.matrix <- function(x, space = c("rows", "columns"), nsv = NULL, center = TRU
 #'
 #' @param x pca object
 #' @param npcs An integer specifying the number of PCs to plot.
-#'
 #' @import ggplot2
 #' @export scree_plot
 scree_plot <- function(x, npcs = length(x$pve)) {
