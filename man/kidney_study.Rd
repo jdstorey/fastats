@@ -8,11 +8,5 @@
 \title{Kidney data set}
 \format{Two data frames: kidney (expression), kidney_info (design)}
 \description{
-To elucidate the transcriptional response from aging in the kidney,
-the kidney study collected cortex samples from 72 patients with ages
-ranging from 27 to 92 years. The samples were hybridized onto U133a and
-U133b GeneChips with 44,928 probes. Following similar filtering steps in
-Storey (2005) to control for potential confounding, only 38,833 probes were
-used for analysis.  Note the expression
-values need to be log-transformed.
+
 }

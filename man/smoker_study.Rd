@@ -8,10 +8,4 @@
 \title{Smoker data set}
 \format{Two data frames: smoker (expression), smoker_info (design)}
 \description{
-The smoker data set is a two-group comparison of airway
-basal cells between healthy non-smokers and smokers. There are
-17 samples: 10 non-smokers and 7 smokers. These samples were
-sequenced using Illumina HiSeq 2000 and the reads were assembled
-using Bowtie. In total, there are 65,217 genes. Note the expression
-values need to be log-transformed.
 }

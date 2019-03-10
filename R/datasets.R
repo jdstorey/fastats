@@ -107,14 +107,6 @@ NULL
 
 #' Endotoxin data set
 #'
-#' The endotoxin study analyzed transcriptional regulation in human blood
-#' leukocytes from two experimental groups: a treatment group receiving a
-#' bacterial endotoxin (an inflammatory stimulus) and a control group.
-#' There were four samples in each biological group and blood samples were
-#' collected at 2, 4, 6, 9, and 24 h intervals. One control sample had
-#' missing information at the 4 and 6 hr time points. The samples were
-#' hybridized onto U133 GeneChips with 44,924 probes. Note the expression
-#' values need to be log-transformed.
 #' @docType data
 #' @name endtoxin_study
 #' @aliases endotoxin_exprs endotoxin_info
@@ -122,14 +114,6 @@ NULL
 NULL
 
 #' Kidney data set
-#'
-#' To elucidate the transcriptional response from aging in the kidney,
-#' the kidney study collected cortex samples from 72 patients with ages
-#' ranging from 27 to 92 years. The samples were hybridized onto U133a and
-#' U133b GeneChips with 44,928 probes. Following similar filtering steps in
-#' Storey (2005) to control for potential confounding, only 38,833 probes were
-#' used for analysis.  Note the expression
-#' values need to be log-transformed.
 #' @docType data
 #' @name kidney_study
 #' @aliases kidney_exprs kidney_info
@@ -137,13 +121,6 @@ NULL
 NULL
 
 #' Smoker data set
-#'
-#' The smoker data set is a two-group comparison of airway
-#' basal cells between healthy non-smokers and smokers. There are
-#' 17 samples: 10 non-smokers and 7 smokers. These samples were
-#' sequenced using Illumina HiSeq 2000 and the reads were assembled
-#' using Bowtie. In total, there are 65,217 genes. Note the expression
-#' values need to be log-transformed.
 #' @docType data
 #' @name smoker_study
 #' @aliases smoker smoker_info

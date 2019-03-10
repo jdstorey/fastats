@@ -8,12 +8,5 @@
 \title{Endotoxin data set}
 \format{Two data frames: endotoxin (expression), endotoxin_info (design)}
 \description{
-The endotoxin study analyzed transcriptional regulation in human blood
-leukocytes from two experimental groups: a treatment group receiving a
-bacterial endotoxin (an inflammatory stimulus) and a control group.
-There were four samples in each biological group and blood samples were
-collected at 2, 4, 6, 9, and 24 h intervals. One control sample had
-missing information at the 4 and 6 hr time points. The samples were
-hybridized onto U133 GeneChips with 44,924 probes. Note the expression
-values need to be log-transformed.
+
 }
